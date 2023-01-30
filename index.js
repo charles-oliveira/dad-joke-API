@@ -26,8 +26,10 @@ async function generateJoke() {
         btn.innerText = 'Tell me a joke'
         jokeEl.innerText = `An ${error} happened, try again later`
 
-        // console.log(error)
     }
+
+    // Limpar o código 
+    // Reescrever usando jQuery
    
 }
 
