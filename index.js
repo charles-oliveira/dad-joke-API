@@ -1,4 +1,4 @@
-const jokeEl = document.querySelector('#joke')
+const jokeEl = document.getElementById("#joke")
 const btn = document.querySelector('#btn')
 
 const apiKey = 'FXqdRLDPstXS0/HP171gxA==DdE1bXmWUc8RhXZI'
@@ -27,9 +27,6 @@ async function generateJoke() {
         jokeEl.innerText = `An ${error} happened, try again later`
 
     }
-
-    // Limpar o código 
-    // Reescrever usando jQuery
    
 }
 
